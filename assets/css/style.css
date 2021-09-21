@@ -8,7 +8,7 @@ body {
     font-size: 18px;
     line-height: 2em;
     overflow-x: hidden;
-    background-color: #FF7F7F;
+    background-color: #D4F1F4;
 }
 
 header {
@@ -76,7 +76,7 @@ header nav ul li {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 15%;
-    background-color: #FFD580;
+    background-color: #A4E5E0;
     position: relative;
 
 }
@@ -100,6 +100,18 @@ header div a {
 }
 
 a:hover {
-    color: #FF7F7F;
+    color: #37BEB0;
     text-decoration: none;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact nav ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 6%;
+    width: 10em;
 }
