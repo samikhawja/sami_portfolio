@@ -71,6 +71,34 @@ header nav ul li {
     right: 25px;
 }
 
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contents {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0C6170;
+    color: #ffffff;
+}
+
+.contents img {
+    float: right;
+    margin-left: 25px;
+    width: 20%;
+    height: 25%;
+    margin-top: -4.25%;
+}
+
+.contents h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -93,9 +121,16 @@ header nav ul li {
 }
 
 #first-assignment {
-    float: right;
+    margin-left: 32.25%;
     width: 65%;
     height: auto;
+}
+
+.small_cards {
+    display: flex;
+    flex-direction: row;
+    margin-left: 32.25%;
+    width: 145%;
 }
   
 /* Add some padding inside the card container */
@@ -116,41 +151,14 @@ a:hover {
     text-decoration: none;
 }
 
-#contact h2 {
+footer h2 {
     text-align: center;
 }
 
-#contact nav ul li{
+footer nav ul li{
     display: inline;
     list-style-type: none;
     padding: 0;
     margin: 6%;
     width: 10em;
 }  
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.contents {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0C6170;
-    color: #ffffff;
-}
-
-.contents img {
-    float: right;
-    margin-left: 25px;
-    width: 20%;
-    height: 25%;
-}
-
-.contents h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
